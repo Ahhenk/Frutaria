@@ -1,0 +1,23 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    background-image: url('/img/1533312393986a971fd.webp');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+a, label {
+    font-size:  .8rem; 
+}
+
+a:hover {
+    color: blue;
+}

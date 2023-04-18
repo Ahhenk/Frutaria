@@ -1,0 +1,78 @@
+/* container login */
+
+#login-container {
+    background-color:rgb(255, 255, 255);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 70px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* formulario */
+
+
+    label, input {
+        display: block;
+        text-align: center;
+        margin: 3px 85px;
+        margin-top: 10px;
+
+        
+    }
+
+    label {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    input {
+        border-bottom: 1px solid #2914e7;
+        padding: 10px;
+        font-size: 1rem;
+        margin-bottom: 50px;
+     
+    }
+
+    input:focus {
+        border-bottom: 2px solid #08558b;
+    }
+
+    #forgot-pass {
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+ 
+
+.form{
+    width: 400px;
+    height: 400px;
+    border: #1b223c;
+    border-style: solid;
+    margin: 0 auto; 
+    border-width: 2px;
+}
+
+.btnLogin{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #657f92;
+    cursor: pointer;
+    margin: 0 auto; 
+}
+
+.btnLogin:hover {
+    background-color: #2f3c69;
+    transition: 1s;
+}
